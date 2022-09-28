@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Pedro Zhu's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Pedro' Portfolio</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html" class="active">London Homicide</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">2021 Greater London Homicide Data Exploration (WIP)</h1>
+							<span class="image left"><img src="images/homicide-detective.jpg" width="410" alt="" /></span>
+							<p>This is my first personal project. <br>
+								I got the idea for the project because I came across the <b>Metropolitan Police Service Homicide dashboard data</b>, which recorded all homicides that took place in Greater London from March 2003 until March 2022. When I saw it, I also remembered that the <b>UK Census</b> took place in 2021 and if I mix the 2 of them, I could have somewhat accurate data that shows how likely it is for you to encounter a murderer in Greater London. <br>
+								I imported the Excel tables into SQL Server, then I did some queries to look around at what I had, and did some cleaning since the homicide data has recordings starting from 2003, and I only wanted the ones in 2021, after that, I connected the 2 tables through the borough name. To finish it, I imported it all into Tableau, made graphs and a map showing the number of murderers, and, in the end, put it all together into a dashboard.</p>
+							<h2>Datasets:</h2> 
+							<ul class="actions">
+								<li><a href="https://data.london.gov.uk/dataset/mps-homicide-dashboard-data" class="button">MPS Homicide dashboard data</a></li> 	<li><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021" class="button">England and Whales Census 2021</a></li>
+							</ul>
+							<h2>Code and Workbook:</h2>
+							<ul class="actions">
+								<li><a href="https://github.com/Pedro-Zhu/Homicide-Cases-2021/blob/main/2021%20Greater%20London%20Homicides.sql" class="button">SQL Server Code</a></li> 	<li><a href="https://github.com/Pedro-Zhu/Homicide-Cases-2021/blob/main/2021%20Greater%20London%20Homicides.twb" class="button">Tableau Workbook</a></li>
+							</ul>
+<!-- 							<h2>Preparing the data</h2>
+							<p>The <b>UK Census</b> had information from England and Whales, so I had to extract the data that was relevant to Greater London. 
+								<span class="imageleft"><img src=""</span> -->
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li> Thank you for reading.</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
